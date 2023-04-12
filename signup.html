@@ -12,36 +12,36 @@
 </head>
 <body style="background-color: #dcd2c8;">
     <div id="signup_content">
-        <form action="" method="post">
+        <form action="login.html" method="post">
             <h1>新會員註冊</h1>
             <table class="table_inline_bigger">
                 <tr>
                     <th>名稱：</th>
-                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id="" required></td>
                 </tr>
                 <tr>
                     <th>信箱：</th>
-                    <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="" id=""></td>
+                    <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="" id="" required></td>
                 </tr>
                 <tr>
                     <th>密碼：</th>
-                    <td><input type="password" name="" id=""></td>
+                    <td><input type="password" name="" id="" required></td>
                 </tr>
                 <tr>
                     <th>生日：</th>
-                    <td><input type="date" name="" id=""></td>
+                    <td><input type="date" name="" id="" required></td>
                 </tr>
                 <tr>
                     <th>電話號碼：</th>
-                    <td><input type="tel" pattern="[09][0-9]{9}" name="" id=""></td>
+                    <td><input type="tel" pattern="[09][0-9]{9}" name="" id="" required></td>
                 </tr>
                 <tr>
                     <th>地址：</th>
-                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id="" required></td>
                 </tr>
             </table>
             <br>
-            <button class="btn" style="width:200px">註冊</button>
+            <button type="submit" class="btn" style="width:200px">註冊</button>
         </form>
     </div>
 </body>
